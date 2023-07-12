@@ -32,6 +32,8 @@ ScrollTrigger.refresh();
 loco()
 
 
+//Giving text animation effects on videos
+
 gsap.to("#page>video",{
     scrollTrigger:{
         trigger:`#page>video`,
@@ -122,7 +124,7 @@ tl2.to("#page4>#center-page4",{
     top:`-50%`
 })
 
-
+//Model wearing apple vision pro animation effect
 
 function canvas(){
     const canvas = document.querySelector("#page7>canvas");
@@ -410,7 +412,7 @@ ScrollTrigger.create({
 }
 canvas();
 
-
+//Vision pro Canvas Animation Effect
 
 function canvas1(){
   const canvas = document.querySelector("#page18>canvas");
@@ -524,7 +526,7 @@ end: `80% top`,
 }
 canvas1();
 
-
+//For giving light off and on effect
 
 var tl3 = gsap.timeline({
   scrollTrigger:{
@@ -556,7 +558,7 @@ tl4.to("#page22>#snroff",{
   opacity:0
 })
 
-
+//For fading effect
 
 gsap.to("#page23>img",{
   scrollTrigger:{
